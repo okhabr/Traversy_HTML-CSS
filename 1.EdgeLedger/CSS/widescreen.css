@@ -1,0 +1,9 @@
+.items .item {
+	display: flex;
+	align-items: center;
+}
+
+
+#contact #map{
+	flex: 2;
+}

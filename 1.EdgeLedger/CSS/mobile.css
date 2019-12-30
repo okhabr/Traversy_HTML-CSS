@@ -1,0 +1,63 @@
+#navbar{
+	flex-direction: column;
+	align-content: center;
+}
+
+h1.logo{
+	margin: auto;
+}
+
+#navbar ul{
+	margin: auto;
+	padding-top: 1rem;
+}
+
+#showcase .showcase-content{
+	top: 103px;
+}
+
+.l-heading{
+	font-size: 3rem;
+	margin-top: 0.5rem;
+}
+
+.lead{
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+
+
+/*WHAT*/
+#what .items{
+	flex-direction: column;
+}
+
+#what .items .item{
+	display: flex; 
+	align-items: center;
+	text-align: left;
+}
+
+#what .items .item i{
+	margin-right: 1rem;
+}
+
+/*WHO*/
+#who .who-img{
+	display: none;
+}
+
+.who-text .m-heading{
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+
+/*CONTACT*/
+#contact{
+	flex-direction: column;
+}
+
+/*#contact .contact-form, #contact #map{
+	flex: 1;
+}*/

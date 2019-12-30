@@ -1,0 +1,136 @@
+html, body {
+  overflow: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+section {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	color: white;	
+}
+
+#welcome {
+	background: #8397EA;
+	
+}
+
+#first {
+
+	background: #7386D4;
+}
+
+#second {
+	background: #576290;	
+}
+
+#third {
+	background: #404869;	
+}
+
+#fourth {
+	background: #2B386B;	
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.flex-item {
+	max-width: 90%;
+}
+
+h1, h2 {
+	font-size: 5rem;
+	margin: 3rem 0;
+}
+
+/*Animations*/
+#welcome h1 {
+	position: relative;
+	top: -200px;
+	animation-name: from_top;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes from_top {
+	from {
+			top: -200px: 
+		}
+
+	to { 
+			top: 0px;
+		}
+}
+
+#welcome p {
+	position: relative;
+	left: -2000px;
+	animation-name: from_left;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+
+@keyframes from_left {
+	from {
+			left: -2000px: 
+		}
+
+	to { 
+			left: 0px;
+		}
+}
+
+.section-content {
+	font-size: 1.5rem; 
+}
+
+.button {
+
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	margin-top: 1.5rem;
+}
+
+.button-next {
+	color: #333;
+	background: white;
+	transition: background, color .5s ease-in-out;
+}
+
+.button-next:hover {
+	background: #333;
+	color: white;
+}
+
+.button-prev {
+	color: white;
+	background: #333;
+	transition: background, color .5s ease-in-out;
+}
+
+.button-prev:hover {
+	background: white;
+	color: #333;
+}
+
+
+
+
+
